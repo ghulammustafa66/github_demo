@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    width: 20rem;
+    height: 20rem;
+    background-color: gold;
+    font-size: 3rem;
+    line-height: 20rem;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    border-radius: 10px;
+    transition: .5s;
+}
+div:hover{
+    background-color: dodgerblue;
+    border-radius: 100%;
+}
